@@ -1,0 +1,95 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background-image: url('fondo.jpg'); /* Establece una imagen de fondo para el cuerpo */
+  font-family: 'Calibri', sans-serif; /* Define una fuente para el texto del cuerpo */
+}
+
+/* Form Styling */
+.form-register {
+  width: 400px; /* Ancho del formulario */
+  background: #24303c; /* Color de fondo del formulario */
+  padding: 30px; /* Espaciado interno del formulario */
+  margin: 30px auto; /* Margen superior e inferior automático, y margen izquierdo y derecho automático */
+  border-radius: 8px; /* Radio de borde del formulario */
+  color: white; /* Color del texto dentro del formulario */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+}
+
+.form-register h4 {
+  font-size: 24px; /* Tamaño de fuente del encabezado del formulario */
+  margin-bottom: 20px; /* Margen inferior del encabezado del formulario */
+  text-align: center; /* Alineación del texto del encabezado del formulario */
+}
+
+/* Input Styling */
+.controls,
+.controls2 {
+  width: 100%; /* Ancho completo del campo de entrada */
+  background: #2c3e50; /* Color de fondo del campo de entrada */
+  padding: 10px; /* Espaciado interno del campo de entrada */
+  border-radius: 6px; /* Radio de borde del campo de entrada */
+  margin-bottom: 16px; /* Margen inferior del campo de entrada */
+  border: 1px solid #1f53c5; /* Borde del campo de entrada */
+  font-size: 18px; /* Tamaño de fuente del campo de entrada */
+  color: rgba(221, 221, 221, 0.952); /* Color del texto del campo de entrada */
+  outline: none; /* Elimina el contorno del campo de entrada */
+}
+
+.controls2 {
+  background: #34495e; /* Color de fondo alternativo del campo de entrada */
+}
+
+/* Paragraph Styling */
+.form-register p {
+  font-size: 18px; /* Tamaño de fuente del párrafo */
+  margin-bottom: 10px; /* Margen inferior del párrafo */
+}
+
+/* Link Styling */
+.form-register a {
+  color: white; /* Color del enlace */
+  text-decoration: none; /* Elimina la subrayado del enlace */
+}
+
+.form-register a:hover {
+  text-decoration: underline; /* Subrayado del enlace al pasar el cursor */
+}
+
+/* Button Styling */
+.form-register .botons {
+  width: 100%; /* Ancho completo del botón */
+  background: #1f53c5; /* Color de fondo del botón */
+  border: none; /* Elimina el borde del botón */
+  padding: 12px; /* Espaciado interno del botón */
+  color: white; /* Color del texto del botón */
+  margin: 16px 0; /* Margen superior e inferior del botón */
+  font-size: 16px; /* Tamaño de fuente del botón */
+  border-radius: 6px; /* Radio de borde del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background 0.3s; /* Transición suave del color de fondo */
+}
+
+.form-register .botons:hover {
+  background: #0d47a1; /* Color de fondo del botón al pasar el cursor */
+}
+
+/* Estilos para el mensaje de éxito y error */
+.message {
+  display: none; /* Oculta el mensaje por defecto */
+  margin-top: 10px; /* Margen superior del mensaje */
+}
+
+.success-message {
+  color: green; /* Color del mensaje de éxito */
+}
+
+.error-message {
+  color: red; /* Color del mensaje de error */
+}
